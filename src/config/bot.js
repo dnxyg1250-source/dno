@@ -4,7 +4,7 @@ export const botConfig = {
   // =========================
   // BOT PRESENCE (what users see under the bot name)
   // =========================
-  // `status` options: bitch
+  // `status` options:
   // - "online"    = green dot
   // - "idle"      = yellow moon
   // - "dnd"       = red do-not-disturb
@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
+        state: "bitch",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
