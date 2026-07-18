@@ -14,12 +14,12 @@ module.exports = {
   enabled: true,
   category: "ANIME",
   cooldown: 5,
-  command: {
+  command: { "sex", "ship", "kiss", "wet", "slap", "punch" };
     enabled: true,
     minArgsCount: 1,
     usage: "[reaction]",
   },
-  slashCommand: {
+  slashCommand: { "/"
     enabled: true,
     options: [
       {
