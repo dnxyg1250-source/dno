@@ -19,7 +19,7 @@ module.exports = {
     minArgsCount: 1,
     usage: "[reaction]",
   },
-  slashCommand: { "/"
+  slashCommand: { "!"
     enabled: true,
     options: [
       {
